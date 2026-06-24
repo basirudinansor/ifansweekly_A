@@ -57,7 +57,7 @@
             <td align="center"><?= $mhs["email"] ?></td>
             <td align="center"><?= $mhs["no_hp"] ?></td>
             <td align="center"><img src="assets/images/<?= $mhs["foto"] ?>" width="70px" /></td>
-            <td><a href="editdata.php"><button>EDIT</button></a> | <a href="deletedata.php"><button>DELETE</button></a></td>
+            <td><a href="editdata.php?id=<?= $mhs["id"] ?>"><button>EDIT</button></a> | <a href="deletedata.php?id=<?= $mhs["id"] ?>" onclick="return confirm('Yaqueeenn???')" ><button>DELETE</button></a></td>
         </tr>
         <?php 
             $i++;
